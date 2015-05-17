@@ -1,0 +1,24 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">workout log</string>
+    <string name="title_activity_new_entry_activity">new entry</string>
+    <string name="title_activity_graph_activity">graph_activity</string>
+
+    <!-- Menu -->
+    <string name="action_new_workout">+</string>
+    <string name="action_new_weight">lbs</string>
+    <string name="action_reminder">Reminder</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Text -->
+    <string name="text_workout_header">Fill out all information Below</string>
+    <string name="muscle_group">Muscle group</string>
+    <string name="exercise">Exercise</string>
+    <string name="reps">Reps</string>
+    <string name="sets">Sets</string>
+    <string name="weight_lifted">Weight lifted</string>
+
+    <!-- Buttons -->
+    <string name="button_save">Save</string>
+    <string name="button_discard">Discard</string>
+</resources>

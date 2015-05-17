@@ -1,0 +1,22 @@
+= main activity =
+date of last workout that you have completed
+muscle group.
+encouraging message
+
+= settings bar =
+new workout
+new weight
+workout reminders
+
+= graphs =
+weight graph
+lift graph
+activity graph
+
+= reminders =
+
+
+= db tables =
+muscle groups
+excersise names
+workout entries
