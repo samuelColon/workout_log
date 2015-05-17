@@ -17,8 +17,10 @@
     <string name="reps">Reps</string>
     <string name="sets">Sets</string>
     <string name="weight_lifted">Weight lifted</string>
+    <string name="Add_item_tip">Don\'t see something? Add it.</string>
 
     <!-- Buttons -->
     <string name="button_save">Save</string>
     <string name="button_discard">Discard</string>
+    <string name="button_plus">+</string>
 </resources>

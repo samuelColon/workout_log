@@ -27,7 +27,6 @@ public class MainActivity extends ActionBarActivity {
         TextView greetingsView = (TextView) findViewById(R.id.view_greetings);
         greetingsView.setText(createGreeting());
 
-
         TextView lastWorkoutView = (TextView) findViewById(R.id.view_previous_workout);
         /** fetch last workout */
         /** else display default view */
@@ -38,7 +37,6 @@ public class MainActivity extends ActionBarActivity {
     private String createGreeting() {
         if (!mUserName.equals("")) {
             return "Hey " + mUserName;
-
         } else {
             return "Hey there";
         }
