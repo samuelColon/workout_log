@@ -2,60 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-63f69f02d45e37bbb4e8f3288537f87f8124be51.jar" />
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/classes-f66eecd77bde32fef209d1d849c1aa03ba69fffc.jar" />
     </item>
     <item
-        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/classes-3ede7804bb3e2f2c4d2a52d9ca2c6202ed5393ea.jar" />
-    </item>
-    <item
-        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/classes-3ede7804bb3e2f2c4d2a52d9ca2c6202ed5393ea.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/classes-5b0b8d788eecc5117f58337c08dc9dc97cbe43a3.jar" />
     </item>
     <item
-        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-63f69f02d45e37bbb4e8f3288537f87f8124be51.jar" />
-    </item>
-    <item
-        jar="/Users/samson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-d281f136e1f04bf3562550df55e52d838e6ae04d.jar" />
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-b40285f05b679a6368a44305d25205eaa7277448.jar" />
     </item>
     <item
-        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/classes-8ae41dba205660627ba0fc3bd70ad8f74d90ec9e.jar" />
-    </item>
-    <item
-        jar="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jar="/Users/samson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/classes-8ae41dba205660627ba0fc3bd70ad8f74d90ec9e.jar" />
-    </item>
-    <item
-        jar="/Users/samson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-d281f136e1f04bf3562550df55e52d838e6ae04d.jar" />
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/samson/AndroidStudioProjects/workout_log/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-d6a498d04481348c303187fce459125d9b956c0e.jar" />
     </item>
 
 </items>

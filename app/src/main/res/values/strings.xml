@@ -19,6 +19,24 @@
     <string name="weight_lifted">Weight lifted</string>
     <string name="Add_item_tip">Don\'t see something? Add it.</string>
 
+    <!-- Spinners -->
+    <string-array name="muscle_group">
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Arms</item>
+        <items>Legs</items>
+    </string-array>
+
+    <string-array name="exercise">
+        <item>Military Press</item>
+        <item>Lat pulldowns</item>
+        <item>Bench press</item>
+        <item>Dumbell curls</item>
+        <item>Squats</item>
+
+    </string-array>
+
     <!-- Buttons -->
     <string name="button_save">Save</string>
     <string name="button_discard">Discard</string>

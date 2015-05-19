@@ -1,8 +1,8 @@
 package com.example.samson.workout_log;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -11,7 +11,7 @@ import android.widget.TextView;
       if none, prompt the user to enter a new workout.
       else print "last workout out completed on date", "muscle group worked out muscle_group"
       */
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private       String mUserName = "";
     private       String mMuscleGroup;
@@ -64,6 +64,7 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
         if (id == R.id.action_settings) {
+            // openSettings();
             return true;
         }
 

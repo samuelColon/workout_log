@@ -1,9 +1,10 @@
 package com.example.samson.workout_log;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -12,7 +13,7 @@ import android.widget.Toast;
       exercises completed, weight lifted, sets, reps */
 
 /** TODO: add bundle for lifecycle purposes */
-public class new_entry_activity extends ActionBarActivity implements AdapterView.OnItemSelectedListener {
+public class new_entry_activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     /**
      * this activity will need to access muscle group names, and exercise names.
@@ -23,7 +24,7 @@ public class new_entry_activity extends ActionBarActivity implements AdapterView
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_new_entry_activity);
-        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(false);
+
 
         /* get info from db */
 
@@ -33,9 +34,19 @@ public class new_entry_activity extends ActionBarActivity implements AdapterView
         
         /** init spinners */
         final Spinner muscleGroup = (Spinner) findViewById(R.id.spinner_muscle_group);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.muscle_group, android.R.layout.simple_spinner_dropdown_item);
+
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        muscleGroup.setAdapter(adapter);
         muscleGroup.setOnItemSelectedListener(this);
 
         final Spinner exercise = (Spinner) findViewById(R.id.spinner_exercise);
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
+                R.array.exercise, android.R.layout.simple_spinner_dropdown_item);
+
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        exercise.setAdapter(adapter);
         exercise.setOnItemSelectedListener(this);
 
         /** set up save discard buttons */
